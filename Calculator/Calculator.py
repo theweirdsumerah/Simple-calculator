@@ -30,7 +30,7 @@ def clear():
 page = Tk() 
 page.title("Calculator")
 page.geometry('300x300')
-alvin = Label(page, text = "'Simple Calculator'", font='Times 18').grid(row=0, columnspan=2)
+a = Label(page, text = "'Simple Calculator'", font='Times 18').grid(row=0, columnspan=2)
 Label(page,text="INPUT-1:",width=8, font='Times 12').grid(row=1)
 Label(page, text="INPUT-2:",width=8,font='Times 12').grid(row=2)
 Label(page, text="ANSWER:", width=8, font='Times 12').grid(row=3, column=1)
