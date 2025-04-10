@@ -9,7 +9,7 @@ def sub():
     ans.delete(0,END)
     a=int(box1.get())
     b=int(box2.get())
-    c=a-b
+    c=a-b 
     ans.insert(0,c)
 def mul():
     ans.delete(0,END)
